@@ -2,15 +2,8 @@
   "redirects": [
     {
       "source": "/:slug",
-      "destination": "/:slug.html",
-      "permanent": true,
-      "has": [
-        {
-          "type": "query",
-          "key": "redirect",
-          "value": "true"
-        }
-      ]
+      "destination": "/:slug.html?redirect=true",
+      "permanent": true
     }
   ]
 }
