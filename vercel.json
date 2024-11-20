@@ -3,7 +3,14 @@
     {
       "source": "/:slug",
       "destination": "/:slug.html",
-      "permanent": true
+      "permanent": true,
+      "has": [
+        {
+          "type": "query",
+          "key": "redirect",
+          "value": "true"
+        }
+      ]
     }
   ]
 }
